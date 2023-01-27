@@ -22,7 +22,4 @@ app
 
     .use("/auth", authRouter)
 
-    // ROUTES
-    .get('/', (_, res) => res.send('<h1>HELLO FROM EXPRESS 👋</h1>'))
-
 module.exports = app
